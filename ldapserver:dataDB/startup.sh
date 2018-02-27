@@ -1,5 +1,5 @@
 #! /bin/bash
 
-/usr/bin/echo "starting slapd..."
-/usr/sbin/slapd -u ldap -h "ldap:/// ldaps:/// ldapi:///" && echo "ok slapd"
+/usr/bin/echo "slapd OK"
+/usr/sbin/slapd -d0 -u ldap -h "ldap:/// ldaps:/// ldapi:///"
 
