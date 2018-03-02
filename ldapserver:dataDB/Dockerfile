@@ -15,4 +15,5 @@ COPY ldap.conf /etc/openldap/
 RUN chmod +x /opt/docker/install.sh /opt/docker/startup.sh
 RUN /opt/docker/install.sh
 WORKDIR /opt/docker
+EXPOSE 389 636
 CMD ["/opt/docker/startup.sh"]
