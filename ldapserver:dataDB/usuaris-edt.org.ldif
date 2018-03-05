@@ -3,7 +3,7 @@
 #description: Container per usuaris del sistema linux
 #objectclass: organizationalunit
 
-dn: cn=Pau Pou,ou=usuaris,dc=edt,dc=org
+dn: uid=Pau Pou,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: Pau Pou
@@ -19,7 +19,7 @@ gidNumber: 200
 homeDirectory: /var/tmp/home/pau
 userPassword: {SSHA}NDkipesNQqTFDgGJfyraLz/csZAIlk2/
 
-dn: cn=Pere Pou,ou=usuaris,dc=edt,dc=org
+dn: uid=Pere Pou,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: Pere Pou
@@ -34,7 +34,7 @@ gidNumber: 200
 homeDirectory: /var/tmp/home/pere
 userPassword: {SSHA}ghmtRL11YtXoUhIP7z6f7nb8RCNadFe+
 
-dn: cn=Anna Pou,ou=usuaris,dc=edt,dc=org
+dn: uid=Anna Pou,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: Anna Pou
@@ -50,7 +50,7 @@ gidNumber: 600
 homeDirectory: /var/tmp/home/anna
 userPassword: {SSHA}Bm4B3Bu/fuH6Bby9lgxfFAwLYrK0RbOq
 
-dn: cn=Marta Mas,ou=usuaris,dc=edt,dc=org
+dn: uid=Marta Mas,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: Marta Mas
@@ -65,7 +65,7 @@ gidNumber: 600
 homeDirectory: /var/tmp/home/marta
 userPassword: {SSHA}9+1F2f5vcW8z/tmSzYNWdlz5GbDCyoOw
 
-dn: cn=Jordi Mas,ou=usuaris,dc=edt,dc=org
+dn: uid=Jordi Mas,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: Jordi Mas
@@ -82,7 +82,7 @@ gidNumber: 200
 homeDirectory: /var/tmp/home/jordi
 userPassword: {SSHA}T5jrMgpJwZZgu0azkLIVoYhiG08/KGUv
 
-dn: cn=Admin System,ou=usuaris,dc=edt,dc=org
+dn: uid=Admin System,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: Administrador Sistema
@@ -99,7 +99,7 @@ gidNumber: 204
 homeDirectory: /var/tmp/home/admin
 userPassword: {SSHA}4mS0FycWc5bkpW8/a396SGNDTQUlFSX3
 
-dn: cn=user01,ou=usuaris,dc=edt,dc=org
+dn: uid=user01,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user01
@@ -115,7 +115,7 @@ gidNumber: 610
 homeDirectory: /var/tmp/home/1asix/user01
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user02,ou=usuaris,dc=edt,dc=org
+dn: uid=user02,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user02
@@ -131,7 +131,7 @@ gidNumber: 610
 homeDirectory: /var/tmp/home/1asix/user02
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user03,ou=usuaris,dc=edt,dc=org
+dn: uid=user03,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user03
@@ -147,7 +147,7 @@ gidNumber: 610
 homeDirectory: /var/tmp/home/1asix/user03
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user04,ou=usuaris,dc=edt,dc=org
+dn: uid=user04,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user04
@@ -163,7 +163,7 @@ gidNumber: 610
 homeDirectory: /var/tmp/home/1asix/user04
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user05,ou=usuaris,dc=edt,dc=org
+dn: uid=user05,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user05
@@ -179,7 +179,7 @@ gidNumber: 610
 homeDirectory: /var/tmp/home/1asix/user05
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user06,ou=usuaris,dc=edt,dc=org
+dn: uid=user06,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user06
@@ -195,7 +195,7 @@ gidNumber: 611
 homeDirectory: /var/tmp/home/2asix/user06
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user07,ou=usuaris,dc=edt,dc=org
+dn: uid=user07,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user07
@@ -211,7 +211,7 @@ gidNumber: 611
 homeDirectory: /var/tmp/home/2asix/user07
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user08,ou=usuaris,dc=edt,dc=org
+dn: uid=user08,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user08
@@ -227,7 +227,7 @@ gidNumber: 611
 homeDirectory: /var/tmp/home/2asix/user08
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user09,ou=usuaris,dc=edt,dc=org
+dn: uid=user09,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user09
@@ -243,7 +243,7 @@ gidNumber: 611
 homeDirectory: /var/tmp/home/2asix/user09
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
 
-dn: cn=user10,ou=usuaris,dc=edt,dc=org
+dn: uid=user10,ou=usuaris,dc=edt,dc=org
 objectclass: posixAccount
 objectclass: inetOrgPerson
 cn: user10
