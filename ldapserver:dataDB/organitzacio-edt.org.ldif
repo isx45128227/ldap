@@ -308,3 +308,28 @@ uidNumber: 7010
 gidNumber: 611
 homeDirectory: /var/tmp/home/2asix/user10
 userPassword: {SHA}ovf8ta/reYP/u2zj0afpHt8yE1A=
+
+### GRUPS
+
+dn: cn=usuaris,dc=edt,dc=org
+objectclass: posixGroup
+cn: usuaris
+gidNumber: 611
+description: grup usuaris
+memberUid: uid=user10,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user09,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user08,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user07,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user06,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user05,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user04,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user03,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user02,ou=usuaris,dc=edt,dc=org
+memberUid: uid=user01,ou=usuaris,dc=edt,dc=org
+memberUid: uid=Admin System,ou=usuaris,dc=edt,dc=org
+memberUid: uid=Pau Pou,ou=usuaris,dc=edt,dc=org
+memberUid: uid=Pere Pou,ou=usuaris,dc=edt,dc=org
+memberUid: uid=Anna Pou,ou=usuaris,dc=edt,dc=org
+memberUid: uid=Marta Mas,ou=usuaris,dc=edt,dc=org
+memberUid: uid=Jordi Mas,ou=usuaris,dc=edt,dc=org
+
