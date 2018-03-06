@@ -1,4 +1,4 @@
-# Docker dettach
+# Docker detached
 	[isx45128227@i03 ldapserver:dataDB]$ docker build -t prova2 .
 
 	[isx45128227@i03 ldapserver:dataDB]$ docker run --name h1 -h h1 -d prova2
