@@ -10,14 +10,4 @@ Cal executar el servei manualment.
 
 ## Utilització
 
-### Construir imatge
-
-    docker build -t nomImatge .
-
-### Iniciar el contenidor de ldap com a deamon
-
-    docker run --name nomContenidor -h nomContenidor -it -d nomImatge
-
-### Per executar en una altra consola el bash d'un contenidor
-
-    docker exec -it nomContenidor /bin/bash
+    docker run --name ldap  -h ldap -d isx45128227/ldapserver2:dataDB
