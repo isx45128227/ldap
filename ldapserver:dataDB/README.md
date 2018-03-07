@@ -6,7 +6,6 @@ Creació d'un servidor ldapserver:base
 
 Servidor ldap base per treballar interactivament.
 
-Cal executar el servei manualment.
 
 ## Utilització
 
