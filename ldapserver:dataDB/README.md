@@ -3,10 +3,14 @@
 # Roger Ferran Aranguren
 
 Creació d'un servidor ldapserver:base
+
 Servidor ldap base per treballar interactivament.
+
 Cal executar el servei manualment.
 
 ## Utilització
+
+### Construir imatge
 
     docker build -t nomImatge .
 
